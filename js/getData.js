@@ -12,6 +12,6 @@ function AJAX_JSON_Req(url, callback) {
     AJAX_req.send();
 }
 
-AJAX_JSON_Req('http://api.pgi.gov.br/api/1/serie/2426.json', function (q) {
+AJAX_JSON_Req('https://api.pgi.gov.br/api/1/serie/2426.json', function (q) {
   console.log(q);
 });
